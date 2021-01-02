@@ -5,6 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         
+        
 
 
 
@@ -12,8 +13,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open teste02.html",
-            "file": "c:\\Users\\anacarolinemoraes\\Documents\\GitHub\\estudos\\teste02.html"
+            "name": "Open soma.html",
+            "file": "c:\\Users\\anacarolinemoraes\\Documents\\GitHub\\estudos\\soma.html"
         }
     ]
 }
