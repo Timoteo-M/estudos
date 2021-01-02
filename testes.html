@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>testando</title>
+    <title>Soma</title>
+
 </head>
 <body>
+    <h1>Soma</h1>    
+    <input type="number" name="n1" id="n1">
+    <input type="number" name="n2" id="n2">
+    <input type="button" value="soma" onclick="clicar()">
+    <div id="res">resultado</div>
     <script>
-        function my(a,b,c){
-           var calculo = (a + b + c) / 3
-           return calculo
+        function clicar(){
+            var n1 = Number(window.document.getElementById('n1').value)
+            var n2 = Number(window.document.getElementById('n2').value)
+            var r = n1 + n2
+            res.innerHTML = ("A resposta eh " + r)
         }
-    </script>
-    <script>
-        var res = my(4,8,9)
-        alert(res)
     </script>
 </body>
 </html>
