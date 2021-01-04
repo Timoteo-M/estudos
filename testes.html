@@ -3,39 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>funcparametro</title>
-    <style>
-        input{
-            background-color: whitesmoke;
-            color: darkred;
-            width: 50px;
-            height: 20px;
-        }
-        input#inp1{
-            width: 20px;
-            height: 20px;
-        }
-        div#res{
-            background-color: rgb(90, 219, 219);
-            width: 30px;
-            margin-top:50px;
-        }
-    </style>
-
+    <title>Document</title>
 </head>
 <body>
-    <h1>Somar</h1>
-    <input type="number" name="n1" id="n1"> +
-    <input type="number" name="n2" id="n2">
-    <button type="button" onclick="clicar()">soma</button>
-    <div id="res">=</div>
+    <h1>Brasileiro</h1>
+    <p>Aqui vai um teste para saber sua nascionalidade</p>
+    Informe onde você nasceu: <input type="text" name="txt" id="txt">
+    <input type="button" value="Verificar" onclick="clicka()">
+    <div id="resp">
+        
+    </div>
 
     <script>
-        function clicar()
-        {var n1 = Number(window.document.getElementById('n1').value)
-        var n2 = Number(window.document.getElementById('n2').value)
-        var r = n1 + n2
-        res.innerHTML = (r)}
+        function clicka() {
+            var nome = window.document.getElementById('txt').value
+            if (nome == 'Brasil'){
+                resp.innerHTML = ('Voce eh Brasileiro')
+            }
+            else{
+                resp.innerHTML = ('Voce eh estrangeiro!!')
+            }
+            
+        }
     </script>
 </body>
 </html>
