@@ -1,0 +1,25 @@
+body{
+    background: lightskyblue;
+    font: normal 15pt Arial;
+    
+
+}
+header{
+    text-align: center;
+}
+section{
+
+    background: mintcream;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.568);
+
+}
+footer{
+    text-align: center;
+}
+input#a{
+    text-align: center;
+}
