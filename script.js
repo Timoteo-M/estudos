@@ -9,6 +9,7 @@ function clickey(){
         var inicio = Number(inic.value)
         var fim = Number(fin.value)
         var passo = Number(pas.value)
+        res.innerHTML = ''
 
         if(inicio < fim){
             for (var i = inicio; i <= fim; i += passo){
