@@ -1,27 +1,21 @@
 body{
-    background: lightskyblue;
-    font: normal 15pt Arial;
-    
-
+    background: mediumslateblue;
+    font: normal 15px Arial;
 }
 header{
     text-align: center;
+
 }
 section{
-
-    background: mintcream;
+    background: cornsilk;
     width: 500px;
-    margin:auto;
-    padding: 15px;
-    border-radius: 15px;
-    box-shadow: rgba(10, 1, 1, 0.897);
-    
-    
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: midnightblue;
 
 }
 footer{
     text-align: center;
-}
-input#a{
-    text-align: center;
+
 }
