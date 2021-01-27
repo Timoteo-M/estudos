@@ -1,0 +1,30 @@
+body{
+    background: rgb(250, 250, 250);
+    font: normal 15px Arial;
+}
+header{
+    text-align: center;
+
+}
+section{
+    background: cornsilk;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px midnightblue;
+
+}
+footer{
+    text-align: center;
+
+}
+div#res{
+    padding: 30px;
+}
+input#but{
+    padding: 30px;
+}
+select#lista{
+    width: auto;
+}
