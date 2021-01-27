@@ -11,7 +11,7 @@ function clickey(){
         var passo = Number(pas.value)
 
         if(passo == 0){
-            alert('Valor incorreto!!<br> SUbstituido por 1')
+            alert('Valor incorreto!! Substituido por 1')
             passo = 1
         }
         res.innerHTML = ''
