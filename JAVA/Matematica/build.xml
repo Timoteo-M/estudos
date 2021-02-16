@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="Matematica" default="default" basedir=".">
-    <description>Builds, tests, and runs the project Matematica.</description>
+<project name="Calculadora_Aula02_POO_AAPA" default="default" basedir=".">
+    <description>Builds, tests, and runs the project Calculadora_Aula02_POO_AAPA.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
