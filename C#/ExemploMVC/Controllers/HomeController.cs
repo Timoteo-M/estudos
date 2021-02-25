@@ -25,6 +25,7 @@ namespace ExemploMVC.Controllers
 
         public IActionResult Privacy()
         {
+            ViewData["Message"] = "Hello, My name is Timothy Berry";
             return View();
         }
 
