@@ -22,9 +22,31 @@ namespace Exemplo_MVC.Models
 
         //Criar uma CONTANTE para conexao com o banco de dados
         readonly string connectionString = @"Data Source=DESKTOP-HV1ONTQ;Initial Catalog=cadastro_MVC;Integrated Security=True ";
+        public DataTable Listar()
+        {
+            //Criar uma variavel para receber os dados da tabela no banco de dados (referência)
+            DataTable tblPessoa = new DataTable();
+
+            using (SqlConnection sqlCon = new SqlConnection(connectionString))
+            {
+                sqlCon.Open();
+
+                //Cria uma instrução SQL para ser executada no servido SQL Server
+                SqlDataAdapter sqlDa = new SqlDataAdapter("sELECT * FROM tb_pessoa", sqlCon);
+
+                //string sql = "sELECT * FROM tb_pessoa";
+                //SqlDataAdapter sqlDa = new SqlDataAdapter()sql, sqlCon);
+
+                //Recuperação dos após a execução da instrução
+                sqlDa.Fill(tblPessoa);
+            }
+
+            // Retornar os obtidos para serem mostrados na View(Index)
+            return tblPessoa;
+        }
+
 
         //Este método salva os dados que vierem do formulário no banco de dados
-
         public void Salvar()
         {
             using (SqlConnection SqlCon = new SqlConnection(connectionString))

@@ -1,7 +1,7 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using System.Threading.Tasks;   
 using Exemplo_MVC.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,7 +13,12 @@ namespace ExemploMVC.Controllers
         // GET: Pessoa
         public ActionResult Index()
         {
-            return View();
+            //Criar uma referencia para o PessoaModel
+            PessoaModel pModel = new PessoaModel();
+
+            //Executar o étodo Listar()
+            
+            return View(pModel.Listar());
         }
 
         // GET: Pessoa/Details/5
