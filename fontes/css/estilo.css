@@ -1,0 +1,32 @@
+*{
+	box-sizing:border-box;
+	margin:0; 	
+}
+h3{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    font-family: 'Fredoka One', cursive;
+}
+p{
+    width: 300px;
+    margin: auto;
+}
+.aut{
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+}
+.pri{
+    font-family: 'Berkshire Swash', cursive;
+    
+}
+.seg{
+    font-family: 'Courgette';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ter{
+    font-family: 'Berkshire Swash', cursive;
+}
